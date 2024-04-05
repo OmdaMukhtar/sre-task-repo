@@ -7,7 +7,7 @@ alertmanager_spec:
     group_wait: 30s
     group_interval: 5m
     repeat_interval: 1h
-    receiver: "default-receiver"  # Use a default receiver (replace with actual name)
+    receiver: "slack-notificaionsr"  # Use a default receiver (replace with actual name)
 
 
 alerting_rules:
